@@ -1,1 +1,2 @@
 E:\Programing\c#\ttm\TTM\bin\Debug\TTM.exe.config
+E:\Programing\c#\TTM\bin\Debug\TTM.exe.config

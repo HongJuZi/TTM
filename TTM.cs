@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TTM
 {
-    public partial class Form1 : Form
+    public partial class TTM : Form
     {
-        public Form1() {
+        public TTM() {
             InitializeComponent();
         }
     }
