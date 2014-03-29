@@ -1,2 +1,10 @@
 E:\Programing\c#\ttm\TTM\bin\Debug\TTM.exe.config
 E:\Programing\c#\TTM\bin\Debug\TTM.exe.config
+E:\Programing\c#\TTM\bin\Debug\TTM.exe
+E:\Programing\c#\TTM\bin\Debug\TTM.pdb
+E:\Programing\c#\TTM\obj\Debug\TTM.csprojResolveAssemblyReference.cache
+E:\Programing\c#\TTM\obj\Debug\TTM.Properties.Resources.resources
+E:\Programing\c#\TTM\obj\Debug\TTM.TTM.resources
+E:\Programing\c#\TTM\obj\Debug\TTM.csproj.GenerateResource.Cache
+E:\Programing\c#\TTM\obj\Debug\TTM.exe
+E:\Programing\c#\TTM\obj\Debug\TTM.pdb
