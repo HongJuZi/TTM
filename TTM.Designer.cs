@@ -31,15 +31,16 @@
             this.CommandTab = new System.Windows.Forms.TabPage();
             this.InputTab = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.VideoFile = new System.Windows.Forms.TextBox();
+            this.VoiceFile = new System.Windows.Forms.TextBox();
             this.SelctFileBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.VideoAPIList = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.ParseVideo = new System.Windows.Forms.Button();
+            this.ParseVoice = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.LogBox = new System.Windows.Forms.TextBox();
+            this.VoiceDialog = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -95,12 +96,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "选择语音文件：";
             // 
-            // VideoFile
+            // VoiceFile
             // 
-            this.VideoFile.Location = new System.Drawing.Point(106, 63);
-            this.VideoFile.Name = "VideoFile";
-            this.VideoFile.Size = new System.Drawing.Size(309, 21);
-            this.VideoFile.TabIndex = 2;
+            this.VoiceFile.Location = new System.Drawing.Point(106, 63);
+            this.VoiceFile.Name = "VoiceFile";
+            this.VoiceFile.Size = new System.Drawing.Size(309, 21);
+            this.VoiceFile.TabIndex = 2;
             // 
             // SelctFileBtn
             // 
@@ -144,14 +145,14 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "语音API选择：";
             // 
-            // ParseVideo
+            // ParseVoice
             // 
-            this.ParseVideo.Location = new System.Drawing.Point(106, 96);
-            this.ParseVideo.Name = "ParseVideo";
-            this.ParseVideo.Size = new System.Drawing.Size(95, 32);
-            this.ParseVideo.TabIndex = 5;
-            this.ParseVideo.Text = "开始识别";
-            this.ParseVideo.UseVisualStyleBackColor = true;
+            this.ParseVoice.Location = new System.Drawing.Point(106, 96);
+            this.ParseVoice.Name = "ParseVoice";
+            this.ParseVoice.Size = new System.Drawing.Size(95, 32);
+            this.ParseVoice.TabIndex = 5;
+            this.ParseVoice.Text = "开始识别";
+            this.ParseVoice.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -165,8 +166,8 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.VideoFile);
-            this.groupBox3.Controls.Add(this.ParseVideo);
+            this.groupBox3.Controls.Add(this.VoiceFile);
+            this.groupBox3.Controls.Add(this.ParseVoice);
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.SelctFileBtn);
@@ -184,6 +185,10 @@
             this.LogBox.Name = "LogBox";
             this.LogBox.Size = new System.Drawing.Size(482, 135);
             this.LogBox.TabIndex = 0;
+            // 
+            // VoiceDialog
+            // 
+            this.VoiceDialog.FileName = "OpenVoiceDialog";
             // 
             // TTM
             // 
@@ -214,14 +219,15 @@
         private System.Windows.Forms.TabPage CommandTab;
         private System.Windows.Forms.TabPage InputTab;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox VideoFile;
+        private System.Windows.Forms.TextBox VoiceFile;
         private System.Windows.Forms.Button SelctFileBtn;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox VideoAPIList;
-        private System.Windows.Forms.Button ParseVideo;
+        private System.Windows.Forms.Button ParseVoice;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox LogBox;
+        private System.Windows.Forms.OpenFileDialog VoiceDialog;
     }
 }
