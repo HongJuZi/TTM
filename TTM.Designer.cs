@@ -125,10 +125,15 @@
             // VideoAPIList
             // 
             this.VideoAPIList.FormattingEnabled = true;
+            this.VideoAPIList.Items.AddRange(new object[] {
+            "Google语音API",
+            "微软语音API",
+            "科大讯飞API"});
             this.VideoAPIList.Location = new System.Drawing.Point(106, 23);
             this.VideoAPIList.Name = "VideoAPIList";
             this.VideoAPIList.Size = new System.Drawing.Size(309, 20);
             this.VideoAPIList.TabIndex = 4;
+            this.VideoAPIList.Text = "Google语音API";
             // 
             // label2
             // 
