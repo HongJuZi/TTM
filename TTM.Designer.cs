@@ -111,6 +111,7 @@
             this.SelctFileBtn.TabIndex = 3;
             this.SelctFileBtn.Text = "选择文件";
             this.SelctFileBtn.UseVisualStyleBackColor = true;
+            this.SelctFileBtn.Click += new System.EventHandler(this.SelctFileBtn_Click);
             // 
             // groupBox1
             // 
@@ -188,7 +189,9 @@
             // 
             // VoiceDialog
             // 
-            this.VoiceDialog.FileName = "OpenVoiceDialog";
+            this.VoiceDialog.DefaultExt = "wav";
+            this.VoiceDialog.Filter = "\"WAV文件|*.wav|SPEEX文件|*.speex|FLAC文件|*.flac|所有文件|*.*\"";
+            this.VoiceDialog.Title = "请选择需要识别的语音文件";
             // 
             // TTM
             // 
