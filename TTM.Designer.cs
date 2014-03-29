@@ -154,6 +154,7 @@
             this.ParseVoice.TabIndex = 5;
             this.ParseVoice.Text = "开始识别";
             this.ParseVoice.UseVisualStyleBackColor = true;
+            this.ParseVoice.Click += new System.EventHandler(this.ParseVoice_Click);
             // 
             // groupBox2
             // 

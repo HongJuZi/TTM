@@ -88,6 +88,12 @@
   <ItemGroup>
     <Content Include="20140329073357519_easyicon_net_32.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HongJuZi-CSharp-Framework\HongJuZi.csproj">
+      <Project>{e352bb9b-617c-42b4-bc87-690fccbed996}</Project>
+      <Name>HongJuZi</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
