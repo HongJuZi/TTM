@@ -183,10 +183,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(563, 550);
+            this.ClientSize = new System.Drawing.Size(553, 550);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "TTM";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "TTM";
             this.tabControl1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
