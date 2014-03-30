@@ -65,7 +65,7 @@ namespace TTM
                 Uri uri = new Uri(url);
                 request = (HttpWebRequest)WebRequest.Create(uri);
                 request.Method = "POST";
-                request.ContentType = "audio/x-flac; rate=16000";
+                request.ContentType = "audio/x-flac; rate=16000";  //flac: x-flac ；wav: L16——Fail..
                 request.ContentLength = voice.Length;
                 using (Stream writeStream = request.GetRequestStream()) {
                     writeStream.Write(voice, 0, voice.Length);
